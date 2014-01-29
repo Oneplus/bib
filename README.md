@@ -1,6 +1,8 @@
 Save bib in browser to Github repo
 ==================================
 
+![screenshot](https://raw.github.com/Oneplus/bib/master/screenshot.jpg)
+
 ### News
 
 Now, we have a button and redundancy check!
