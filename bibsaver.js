@@ -4,7 +4,7 @@
 // @include     http://aclweb.org/anthology/*.bib
 // @include     http://scholar.google.com/scholar.bib?*
 // @description With this script, you are allowed to save bib to a github repo.
-// @version     0.0.2
+// @version     0.0.3
 // @require     http://code.jquery.com/jquery-1.10.2.min.js
 // @require     https://raw.github.com/michael/github/master/lib/base64.js
 // @require     https://raw.github.com/michael/github/master/lib/underscore-min.js
@@ -66,7 +66,7 @@ $("#bibsaver_save").click(function(){
                         parser.content = entries[i];
                         parser.parse();
                         
-                        if (parser["data"][0]["cite"] == bibEntryCite) {
+                        if (parser["data"].length > 0 && parser["data"][0]["cite"] == bibEntryCite) {
                             has_key = true;
                             break;
                         }
@@ -80,7 +80,6 @@ $("#bibsaver_save").click(function(){
                                    bibText + "\n" + content,
                                    "bib from : " + window.location.href,
                                    function(err) {
-                                        alert(err);
                                         if (err) {
                                             $('#bibsaver_msg').text(err);
                                         } else {

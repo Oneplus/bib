@@ -5,7 +5,7 @@ Save bib in browser to Github repo
 
 ### News
 
-Now, we have a button and redundancy check!
+Now, you can install this script from userscript, [install](http://userscripts.org/scripts/show/293624)!
 
 ### Usage
 
@@ -27,6 +27,11 @@ Currently configured bib source is [aclweb.org](aclweb.org) and [scholar.google.
 Surely you can add other sources by add an entry to the script header.
 
 ### changelog
+
+#### 2014-02-06 0.0.3
+
+* [FIX] fix bug issue from illegal entry
+* [ADD] add this script to userscript.org
 
 #### 2014-01-29 0.0.2
 
