@@ -41,3 +41,6 @@ Surely you can add other sources by add an entry to the script header.
 #### 2013-12-26 0.0.1
 
 * [ADD] First version of the project.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Oneplus/bib/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
