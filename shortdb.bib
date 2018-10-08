@@ -2745,6 +2745,16 @@ and decoding speed of a single NMT network but performs on the level of a
  year = {2008}
 }
 
+@inproceedings{szubert-lopez-schneider:2018:N18-1,
+ abstract = {Abstract Meaning Representation (AMR) annotations are often assumed to closely mirror dependency syntax, but AMR explicitly does not require this, and the assumption has never been tested. To test it, we devise an expressive framework to align AMR graphs to dependency graphs, which we use to annotate 200 AMRs. Our annotation explains how 97% of AMR edges are evoked by words or syntax. Previously existing AMR alignment frameworks did not allow for mapping AMR onto syntax, and as a consequence they explained at most 23%. While we find that there are indeed many cases where AMR annotations closely mirror syntax, there are also pervasive differences. We use our annotations to test a baseline AMR-to-syntax aligner, finding that this task is more difficult than AMR-to-string alignment; and to pinpoint errors in an AMR parser. We make our data and code freely available for further research on AMR parsing and generation, and the relationship of AMR to syntax.},
+ author = {Szubert, Ida  and  Lopez, Adam  and  Schneider, Nathan},
+ booktitle = {Proc. of NAACL-2018},
+ link = {http://www.aclweb.org/anthology/N18-1106},
+ publisher = {ACL},
+ title = {A Structured Syntax-Semantics Interface for English-AMR Alignment},
+ year = {2018}
+}
+
 @article{TACL145,
  abstract = {Greedy transition-based parsers are very fast but tend to suffer from error propagation. This problem is aggravated by the fact that they are normally trained using oracles that are deterministic and incomplete in the sense that they assume a unique canonical path through the transition system and are only valid as long as the parser does not stray from this path. In this paper, we give a general characterization of oracles that are nondeterministic and complete, present a method for deriving such oracles for transition systems that satisfy a property we call arc decomposition, and instantiate this method for three well-known transition systems from the literature. We say that these oracles are dynamic, because they allow us to dynamically explore alternative and non-optimal paths during training — in contrast to oracles that statically assume a unique optimal path. Experimental evaluation on a wide range of data sets clearly shows that using dynamic oracles to train greedy parsers gives substantial improvements in accuracy. Moreover, this improvement comes at no cost in terms of efficiency, unlike other techniques like beam search.},
  author = {Goldberg, Yoav  and Nivre, Joakim},
