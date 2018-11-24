@@ -2310,6 +2310,17 @@ state-of-the-art systems that do not use extra linguistic resources.},
  year = {2011}
 }
 
+@inproceedings{pmlr-v70-dauphin17a,
+ abstract = {The pre-dominant approach to language modeling to date is based on recurrent neural networks. Their success on this task is often linked to their ability to capture unbounded context. In this paper we develop a finite context approach through stacked convolutions, which can be more efficient since they allow parallelization over sequential tokens. We propose a novel simplified gating mechanism that outperforms Oord et al. (2016) and investigate the impact of key architectural decisions. The proposed approach achieves state-of-the-art on the WikiText-103 benchmark, even though it features long-term dependencies, as well as competitive results on the Google Billion Words benchmark. Our model reduces the latency to score a sentence by an order of magnitude compared to a recurrent baseline. To our knowledge, this is the first time a non-recurrent approach is competitive with strong recurrent models on these large scale language tasks.},
+ author = {Yann N. Dauphin and Angela Fan and Michael Auli and David Grangier},
+ booktitle = {Proc. of ICML},
+ link = {http://proceedings.mlr.press/v70/dauphin17a.html},
+ pdf = {http://proceedings.mlr.press/v70/dauphin17a/dauphin17a.pdf},
+ title = {Language Modeling with Gated Convolutional Networks},
+ volume = {70},
+ year = {2017}
+}
+
 @inproceedings{pmlr-v9-ross10a,
  abstract = {Imitation Learning, while applied successfully on many large real-world problems, is typically addressed as a standard supervised learning problem, where it is assumed the training and testing data are i.i.d..  This is not true in imitation learning as the learned policy influences the future test inputs (states) upon which it will be tested. We show that this leads to compounding errors and a regret bound that grows quadratically in the time horizon of the task. We propose two alternative algorithms for imitation learning where training occurs over several episodes of interaction. These two approaches share in common that the learner’s policy is slowly modified from executing the expert’s policy to the learned policy. We show that this leads to stronger performance guarantees and demonstrate the improved performance on two challenging problems: training a learner to play 1) a 3D racing game (Super Tux Kart) and 2) Mario Bros.; given input images from the games and corresponding actions taken by a human expert and near-optimal planner respectively.},
  author = {Stephane Ross and Drew Bagnell},
